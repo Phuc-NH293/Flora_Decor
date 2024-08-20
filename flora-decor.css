@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Instrument Serif", serif;
   font-weight: 400;
   font-style: normal;
   box-sizing: border-box;
@@ -84,6 +84,17 @@ body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+
+
+}
+
+.panel p {
+  font-size: 15px;
+  color: rgba(66, 41, 31, 0.85);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .accordion i {
@@ -98,7 +109,6 @@ body {
 .img-banner img {
   width: 560px;
   height: auto;
-
   object-fit: cover;
   margin-left: 20px;
 }
@@ -149,7 +159,6 @@ body {
     width: 100%;
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
     object-fit: cover;
     margin-left: 0;
   }
