@@ -104,7 +104,7 @@ body {
 }
 
 @media (min-width:320px) and (max-width: 600px) {
-  .container_item {
+  .container-item {
     flex-direction: column;
     gap: 20px;
   }
@@ -115,7 +115,7 @@ body {
 
   }
 
-  .container_item-service,
+  .container-item-service,
   .img-banner {
     width: 100%;
     max-width: none;
@@ -145,7 +145,7 @@ body {
     padding: 15px;
   }
 
-  .container_item-service img {
+  .container-item-service img {
     width: 100%;
     max-width: 100%;
     height: auto;
